@@ -8,9 +8,9 @@
  * Author URI: https://www.gplastra.com
  */
 
-// Display Shortcode Content By Replacing WooCommerce Short Description
+// Display Shortcode Content After WooCommerce Short Description
 
 add_filter('woocommerce_short_description', function ($description) {
 	if (! is_product()) { return; }   
-	return do_shortcode('[mbv name="product-info"]');
+	return $description.do_shortcode('[mbv name="product-info"]');
 });
