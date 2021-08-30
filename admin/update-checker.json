@@ -1,0 +1,36 @@
+{
+	"name": "My GPLAstra",
+	"slug": "my-gplastra",
+	"version": "1.0",
+	"author": "#",
+	"author_profile": "#",
+	"contributors": {
+		"ulathemes": {
+			"profile": "ulathemes00@gmail.com",
+			"avatar": "https://avatars.githubusercontent.com/u/86716632?s=100&v=4",
+			"display_name": "ULATHEMES"
+		}
+	},
+	"requires": "5.0",
+	"tested": "5.5.1",
+	"compatibility": {},
+	"rating": 0,
+	"num_ratings": "0",
+	"ratings": {},
+	"downloaded": 0,
+	"last_updated": "",
+	"added": "",
+	"homepage": "#",
+	"sections": {
+		"description": "This plugin will help you to enable all functions of GPLAstra website",
+		"changelog": "<h4>v1.0</h4><ul><li>Initial!</li></ul>"
+	},
+	"short_description": "This plugin will help you to enable all functions of GPLAstra website",
+	"download_link": "https://github.com/ulathemes/my-gplastra/archive/refs/heads/main.zip",
+	"tags": {},
+	"donate_link": "",
+	"banners": {
+		"low": "https://via.placeholder.com/772x250?text=My%20GPLAstra",
+		"high": "https://via.placeholder.com/1544x500?text=My%20GPLAstra"
+	}
+}
