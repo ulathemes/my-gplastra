@@ -1,10 +1,4 @@
 <?php
-if (! defined('WP_DEBUG')) {
-	die( 'Direct access forbidden.' );
-}
-add_action( 'wp_enqueue_scripts', function () {
-	wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
-});
 // Remove Quantity Option
 function custom_remove_all_quantity_fields( $return, $product ) {return true;}
 add_filter( 'woocommerce_is_sold_individually','custom_remove_all_quantity_fields', 10, 2 );
@@ -27,10 +21,6 @@ add_action( 'blocksy:woocommerce:product-card:title:after', 'my_zshcontent', 5 )
 function my_zshcontent() {
   print do_shortcode ( '[mbv name="shop-archive-page-at-card-info"]' );
 }
-
-add_filter( 'gutenberg_use_widgets_block_editor', '__return_false' );
-	add_filter( 'use_widgets_block_editor', '__return_false' );
-
 // Turn on Option By Default 
 function cs_wc_product_type_options( $product_type_options ) {
     $product_type_options['virtual']['default'] = 'yes';
