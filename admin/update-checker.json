@@ -26,7 +26,7 @@
 		"changelog": "<h4>v1.0</h4><ul><li>Initial!</li></ul>"
 	},
 	"short_description": "This plugin will help you to enable all functions of GPLAstra website",
-	"download_link": "https://github.com/ulathemes/my-gplastra/archive/refs/heads/main.zip",
+	"download_link": "https://github.com/ulathemes/my-gplastra/archive/refs/tags/v1.0.zip",
 	"tags": {},
 	"donate_link": "",
 	"banners": {
